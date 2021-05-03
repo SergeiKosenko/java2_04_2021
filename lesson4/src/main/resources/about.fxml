@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="365.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainChatController">
+    <TextArea fx:id="chatArea" editable="false" prefHeight="400.0" prefWidth="600.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+
+    </TextArea>
+   <VBox alignment="TOP_CENTER" layoutX="105.0" layoutY="128.0" prefHeight="212.0" prefWidth="386.0">
+      <children>
+         <Text fill="#3109e5" strokeType="OUTSIDE" strokeWidth="0.0" text="О программе" textAlignment="CENTER">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Text onMouseClicked="#exitAbout" strokeType="OUTSIDE" strokeWidth="0.0" text="Сетевой чат версия 1.0" textAlignment="CENTER" wrappingWidth="150.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Косенко Сергей ">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+      </children>
+   </VBox>
+
+</AnchorPane>
