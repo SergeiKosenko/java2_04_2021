@@ -25,9 +25,7 @@ public class MultiThread {
         long b = System.currentTimeMillis() - a;
         System.out.printf("Время выполнения: %s\n ", b);
         long a1 = System.currentTimeMillis();
-        for (int i = 0; i <= size - 1; i+=2) {
-            arr1[i] = (float)(arr1[i] * Math.sin(0.2f + i / 5.0) * Math.cos(0.2f + i / 5.0) * Math.cos(0.4f + i / 2.0));
-        }
+
             Thread thread = new Thread(() -> {
                 for (int i = 1; i <= size; i+=2) {
                     arr1[i] = (float)(arr1[i] * Math.sin(0.2f + i / 5.0) * Math.cos(0.2f + i / 5.0) * Math.cos(0.4f + i / 2.0));
@@ -41,7 +39,10 @@ public class MultiThread {
                 }
             });
             thread.start();
-//            thread.join();
+        for (int i = 0; i <= size - 1; i+=2) {
+            arr1[i] = (float)(arr1[i] * Math.sin(0.2f + i / 5.0) * Math.cos(0.2f + i / 5.0) * Math.cos(0.4f + i / 2.0));
+        }
+            thread.join();
         long b1 = System.currentTimeMillis() - a1;
 
         System.out.printf("Время выполнения в 2 потока: %s\n ", b1);
