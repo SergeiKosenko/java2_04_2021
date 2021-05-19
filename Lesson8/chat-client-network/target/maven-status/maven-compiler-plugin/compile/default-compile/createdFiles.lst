@@ -1,0 +1,4 @@
+ru\kosenko\network\ChatMessageServiceImpl.class
+ru\kosenko\network\ChatMessageService.class
+ru\kosenko\network\NetworkService.class
+ru\kosenko\network\MessageProcessor.class
