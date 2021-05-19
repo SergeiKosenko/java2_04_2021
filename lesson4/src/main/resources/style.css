@@ -1,0 +1,14 @@
+
+
+.border-region {
+    -fx-text-fill: blue;
+    -fx-font-size: 16;
+    -fx-padding: 5;
+
+}
+.border-region1 {
+    -fx-text-fill: red;
+    -fx-font-size: 16;
+    -fx-padding: 5;
+
+}

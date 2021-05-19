@@ -1,0 +1,7 @@
+ru\kosenko\chat_server\ServerApp.class
+ru\kosenko\chat_server\ChatServer.class
+ru\kosenko\chat_server\auth\PrimitiveInMemoryAuthService.class
+ru\kosenko\chat_server\auth\AuthService.class
+ru\kosenko\chat_server\auth\User.class
+ru\kosenko\chat_server\ClientHandler$1.class
+ru\kosenko\chat_server\ClientHandler.class
